@@ -555,6 +555,9 @@ table {
 }
 
 /* Styles for parties */
+:root {
+  --radix-main: #243d61;
+}
 .seat.kpd {
     fill: #8B0000;
 }
