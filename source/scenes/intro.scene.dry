@@ -6,23 +6,19 @@ audio: shuffle music/WorkersMarseillaise.ogg music/TchaikovskyQuartet.mp3 music/
 
 = The Revolution of February 1917
 
-On International Women's Day, 1917, mass marches of hungry women filled the streets of Petrograd, the capital city of the Russian Empire. They demanded bread and peace, and the end of the Tsarist autocracy. Workers joined the protests, and the marches grew to a general strike shutting the entire city. Soldiers were ordered to suppress the marches with force; they refused, turning against their officers instead.
-
-Now, the hated Tsar Nicholas II has abdicated, and a new Provisional Government has been formed among Duma representatives. Meanwhile, the striking workers and mutinous soldiers of Petrograd have organized the Soviet, a committee of socialist workers' representatives that is somewhere between a coordinating body and a government.
-
-It seems that for now, anything is possible. The established order is gone. A new world is ready to be built.
+WIP.
 
 @introduction
 
-- @abdication_of_the_tsar
-- @petrograd_soviet
+- @text_wall_1
+- @text_wall_2
 - @provisional_government
 - @order_number_1
 - @war_conduct
 - @what_now
 
 
-@abdication_of_the_tsar
+@text_wall_1
 title: The Abdication of the Tsar
 view-if: abdi_seen < n_players
 go-to: intro_menu
@@ -30,11 +26,9 @@ on-arrival: abdi_seen += 1
 
 = The Abdication of the Tsar
 
-The Tsar has been convinced that his abdication is the only way to save Russia from civil war, and thus has abdicated in favor of his brother, Grand Duke Michael. However, Grand Duke Michael also sees the position as tsar to be untenable, and thus has refused to take the crown
+The reign of the Tsar is over, and power is vested in the Provisional Government.
 
-Now, the reign of the Tsar is over, and power is vested in the Provisional Government.
-
-@petrograd_soviet
+@text_wall_2
 title: The Petrograd Soviet
 view-if: ps_seen < n_players
 go-to: intro_menu
@@ -42,9 +36,7 @@ on-arrival: ps_seen += 1
 
 = The Petrograd Soviet
 
-The Petrograd Soviet of Workers' and Soldiers' Deputies is an elected council comprised of representatives of workers and soldiers throughout the city. Organized in the wake of the general strike and the breakdown of the established order, it harkens back to the Petrograd Soviet of 1905, which functioned as an alternative government in the city during the revolution.
-
-The leaders of the Soviet, mostly Social Democrat and SR intellectuals, have organized an Executive Committee, and elected the Menshevik Nikolai Chkheidze as the chairman. They see its goal as ending the general strike and advocating for the workers and soldiers, acting as a watchdog over the bourgeois Provisional Government. They command the workers and soldiers to go back to work, and to obey the Provisional Government insofar as it does not disobey the directives of the Soviet.
+The Petrograd Soviet is an elected council comprised of representatives of workers and soldiers throughout the city.
 
 
 @order_number_1
