@@ -41,7 +41,7 @@ The Petrograd Soviet is an elected council comprised of representatives of worke
 @text_wall_3
 title: The Provisional Government
 view-if: pg_seen < 1
-go-to: pg_k
+go-to: intro_menu
 on-arrival: pg_seen += 1
 
 = The Provisional Government
@@ -50,15 +50,10 @@ With the abdication of the Tsar, power in Russia has been transferred to the Pro
 
 The leaders of the Provisional Government see its role as continuing to persecute the war and maintaining stability until an elected Constituent Assembly is ready to decide Russia's final form of government.
 
-@pg_k
-go-to: dual_gov
-
-The Kadets, that is our party, have the leading role in the Provisional Government.
-
 
 @text_wall_4_choice
 title: The Conduct of the War
-go-to: war_m
+go-to: intro_menu
 view-if: war_seen < 1
 on-arrival: war_seen += 1
 
@@ -67,8 +62,6 @@ on-arrival: war_seen += 1
 Even as the revolution progresses, the Great War continues as before. All sectors of Russian society argue that the Tsar and his advisors failed to lead the country in the war. Tsar Nicholas, his German-born wife Alexandra, and her widely-loathed "friend" Rasputin have become symbols of the failure and corruption of the established order. Their reign led to defeats, to hunger, to betrayal.
 
 With the Tsar gone, it is hoped that the new Provisional Government would be able to persecute the war more effectively. There is an outburst of patriotic sentiment even among socialists, some of whom now see the war as a defense of freedom and revolution. Even so, many are hoping to end the war as soon as possible. The "Internationalists" are calling for the workers of all countries to fight for a just peace, even if it means revolting against their own governments.
-
-@war_m
 
 The Mensheviks are divided regarding the war effort.
 
