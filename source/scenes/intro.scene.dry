@@ -1,6 +1,6 @@
 title: Intros
 new-page: true
-go-to: intro_menu
+go-to: introduction
 face-image: img/womens_day.jpg
 audio: shuffle music/WorkersMarseillaise.ogg music/TchaikovskyQuartet.mp3 music/AyUchniem.mp3 music/SwetitMiesiatz.mp3 music/EchTyDolia.mp3 music/LongingforOurCountry.mp3 music/OdessaMama.mp3 music/VolgaBoatmen.ogg music/LomirSichIberbeiten.mp3 music/Internationale.ogg music/WorkersMarseillaise.ogg music/Kalinka.mp3 music/DearFriends.mp3 music/Dubinushka.mp3
 
@@ -12,7 +12,7 @@ Now, the hated Tsar Nicholas II has abdicated, and a new Provisional Government 
 
 It seems that for now, anything is possible. The established order is gone. A new world is ready to be built.
 
-@intro_menu
+@introduction
 
 - @abdication_of_the_tsar
 - @petrograd_soviet
