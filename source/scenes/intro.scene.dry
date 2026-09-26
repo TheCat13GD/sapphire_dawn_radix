@@ -15,7 +15,7 @@ Your name is Jem ________________, and you have just been elected as the first G
 - @text_wall_1
 - @text_wall_2
 - @text_wall_3
-- @text_wall_4_choice
+- @text_wall_4
 - @what_now
 
 
@@ -52,11 +52,13 @@ on-arrival: cw_seen += 1
 WIP.
 
 
-@text_wall_4_choice
+@text_wall_4
 title: The Conduct of the War
-go-to: introduction
+go-to: intro_choice
 view-if: ideology_seen < 1
 on-arrival: ideology_seen += 1
+
+@intro_choice
 
 = The Conduct of the War
 
