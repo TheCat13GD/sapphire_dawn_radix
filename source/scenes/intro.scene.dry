@@ -5,17 +5,14 @@ face-image: img/reichsbanner_flag.jpg
 
 = I <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> Congress, 14th of November 9377
 
-Dark clouds cover the sky above what just a couple of days ago used to be a hospital complex, located just a few kilometers north of Vilaura, the capital of Aurelia. Inside the remains of one of the buildings, a large crowd gathers, comprising all kinds of backgrounds and ideologies, but all with a clear, shared objective and desire. For several hours, speeches are made, names are uttered aloud, votes are counted, until an awful noise interrupts it all. It is an ambush. You witness everyone dispersing, comrades taken away, bullets fired in all directions, all the while more and more enemy reinforcements appear from seemingly nowhere. Next thing you know,
-.
-
-Your name is Jem Albert-Ferrom, and you have just been elected as the first General Secretary of a brand new political and paramilitary organization, the <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span>.
+Dark clouds cover the sky above what just a couple of days ago used to be a hospital complex, located just a few kilometers north of Vilaura, the capital of Aurelia. Inside the remains of one of the buildings, a large crowd gathers, comprising all kinds of backgrounds and ideologies, but all with a clear, shared objective and desire. For several hours, speeches are made, names are uttered aloud, votes are counted, until an awful noise interrupts it all. It is an ambush. You witness everyone dispersing, comrades taken away, bullets fired in all directions, all the while more and more enemy reinforcements appear from seemingly nowhere. Next thing you know, you and your group are forced to confront a pro-regime squad. In the end, you end up with only minor injuries, thankfully, as dying is the last thing you should do, especially now that you have just pledged to fight for the people of Aurelia. Your name is Jem Albert-Ferrom, and today you have been elected as the first General Secretary of a brand new political and paramilitary organization, the <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span>.
 
 @introduction
 
 - @text_wall_1
 - @text_wall_2
 - @text_wall_3
-- @text_wall_4
+- @now_what
 
 
 @text_wall_1
@@ -51,8 +48,8 @@ on-arrival: cw_seen += 1
 WIP.
 
 
-@text_wall_4
-title: What now?
+@now_what
+title: Now what?
 go-to: intro_choice
 view-if: ideology_seen < 1
 on-arrival: ideology_seen += 1
