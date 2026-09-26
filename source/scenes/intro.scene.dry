@@ -60,28 +60,32 @@ on-arrival: ideology_seen += 1
 
 = The Conduct of the War
 
-Even as the revolution progresses, the Great War continues as before. All sectors of Russian society argue that the Tsar and his advisors failed to lead the country in the war. Tsar Nicholas, his German-born wife Alexandra, and her widely-loathed "friend" Rasputin have become symbols of the failure and corruption of the established order. Their reign led to defeats, to hunger, to betrayal.
+The SPD is torn between many different ideological currents. What should be our primary ideological guidance for now?
 
-With the Tsar gone, it is hoped that the new Provisional Government would be able to persecute the war more effectively. There is an outburst of patriotic sentiment even among socialists, some of whom now see the war as a defense of freedom and revolution. Even so, many are hoping to end the war as soon as possible. The "Internationalists" are calling for the workers of all countries to fight for a just peace, even if it means revolting against their own governments.
+- @class_struggle: Class struggle and preparing the proletariat for the revolution are our primary goals.
+- @centrist: The Center Marxism of Karl Kautsky remains the best way to resolve our internal contradictions.
+- @labor: We should work with the trade unions to improve the lives of workers.
+- @reform: Following Eduard Bernstein, we should work for ethical socialism, strengthen democracy, and expand the party's electorate.
 
-The Mensheviks are divided regarding the war effort.
+@class_struggle
+on-departure: ideology = "left"; left_strength += 10; communist_coalition += 1; left_dissent -= 5; z_relation -= 3; dvp_relation -= 5; nationalization_support += 1; kpd_relation += 3
 
-- @m_support_int: Support the Internationalists in our party.
-- @m_support_d: Support the Defensists in our party.
+The radical left of the party supports a course of class struggle, and potentially a reconcilliation with the Communists.
 
-@m_support_int
-go-to: introduction
-on-arrival: left_dissent -= 5
-subtitle: Support an immediate end to the war.
+@centrist
+on-departure: ideology = "centrist"; center_strength += 10; center_dissent -= 10; left_dissent -= 5; reformist_dissent -= 5
 
-The Internationalists are currently a minority of our party.
+The Center Marxists, represented by Kautsky and Hilferding, support a middle course of preparing for revolution while building up the consciousness of the working class.
 
-@m_support_d
-go-to: introduction
-on-arrival: left_dissent += 8
-subtitle: Support waging a war of defense until a just peace can be reached.
+@labor
+on-departure: ideology = "labor"; labor_strength += 10; wtb_support += 1; labor_dissent -= 5; kpd_relation -= 3
 
-Th Defensists are currently a majority of our party.
+The labor wing of the party supports continued particpation in government in order to provide benefits to the workers, and the creation of public works programs for employment.
+
+@reform
+on-departure: ideology = "reformist"; reformist_strength += 10; democratization += 1; reformist_dissent -= 5; z_relation += 5; dvp_relation += 5; kpd_relation -= 8; moderate_plan_support += 1
+
+The reformist wing of the party seeks to preserve the Republic and the democratic system of government, and is most supportive of coalitions with the other pro-democracy parties.
 
 
 @what_now
