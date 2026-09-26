@@ -20,44 +20,43 @@ Your name is Jem ________________, and you have just been elected as the first G
 
 
 @text_wall_1
-title: The Abdication of the Tsar
-view-if: abdi_seen < 1
+title: The <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span>
+view-if: rf_seen < 1
 go-to: introduction
-on-arrival: abdi_seen += 1
+on-arrival: rf_seen += 1
 
-= The Abdication of the Tsar
+= The <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span>
 
-The reign of the Tsar is over, and power is vested in the Provisional Government.
+WIP.
+
 
 @text_wall_2
-title: The Petrograd Soviet
-view-if: ps_seen < 1
+title: The Popular Front
+view-if: pf_seen < 1
 go-to: introduction
-on-arrival: ps_seen += 1
+on-arrival: pf_seen += 1
 
-= The Petrograd Soviet
+= The Popular Front
 
-The Petrograd Soviet is an elected council comprised of representatives of workers and soldiers throughout the city.
+WIP.
 
 
 @text_wall_3
-title: The Provisional Government
-view-if: pg_seen < 1
+title: The Aurelian Civil War
+view-if: cw_seen < 1
 go-to: introduction
-on-arrival: pg_seen += 1
+on-arrival: cw_seen += 1
 
-= The Provisional Government
+= The Aurelian Civil War
 
-With the abdication of the Tsar, power in Russia has been transferred to the Provisional Government, comprised primarily of liberal members of the Duma and led by Prince Georgy Lvov, a reformist noble. The government has already been recognized by the powers of the Entente.
-
-The leaders of the Provisional Government see its role as continuing to persecute the war and maintaining stability until an elected Constituent Assembly is ready to decide Russia's final form of government.
+WIP.
 
 
 @text_wall_4_choice
 title: The Conduct of the War
 go-to: introduction
-view-if: war_seen < 1
-on-arrival: war_seen += 1
+view-if: ideology_seen < 1
+on-arrival: ideology_seen += 1
 
 = The Conduct of the War
 
