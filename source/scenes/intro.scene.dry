@@ -71,14 +71,14 @@ The Mensheviks are divided regarding the war effort.
 
 @m_support_int
 go-to: introduction
-on-arrival: internationalist_strength += m_support_change; internationalist_dissent -= 5; defensist_dissent += 8; defensist_strength -= m_support_change + 2
+on-arrival: left_dissent -= 5
 subtitle: Support an immediate end to the war.
 
 The Internationalists are currently a minority of our party.
 
 @m_support_d
 go-to: introduction
-on-arrival: defensist_strength += m_support_change; internationalist_dissent += 8
+on-arrival: left_dissent += 8
 subtitle: Support waging a war of defense until a just peace can be reached.
 
 Th Defensists are currently a majority of our party.
