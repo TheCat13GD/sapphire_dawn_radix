@@ -97,15 +97,12 @@ The reformist wing of the party seeks to preserve the Republic and the democrati
 
 @neutral
 subtitle: This won't give us any benefits in the short term, but it might prevent internal divisions from appearing.
+go-to: intro_end
 
 We won't take a partisan position just yet.
 
 
 @intro_end
-
-= Questions of Ideology
-
-Theem all, but you are also expected to take the organization on a clear ideological path
 
 - @intro_end_fr: Continue...
 - @1928_main: Continue...
