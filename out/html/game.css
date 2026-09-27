@@ -557,32 +557,39 @@ table {
 /* Styles for parties */
 :root {
   --radix-main: #243d61;
+  --lf: #8B0000;
+  --vp: #E3000F;
+  --adp: #DCCA4A;
+  --dcp: #000;
+  --rpp: #ab98ee;
+  --cldp: #D5AC27;
+  --nscu: #A0A0A0;
+  --napp: #3F7BC1;
+  --anf: #954B00;
 }
 .seat.kpd {
-    fill: #8B0000;
+    fill: var(--lf);
 }
 .seat.spd {
-    fill: #E3000F;
-    stroke: var(--border-color);
-    stroke-width: 1.5px;
+    fill: var(--vp);
 }
 .seat.ddp {
-    fill: #DCCA4A;
+    fill: var(--adp);
 }
 .seat.z {
-    fill: #000;
+    fill: var(--dcp);
 }
 .seat.dvp {
-    fill: #D5AC27;
+    fill: var(--cldp);
 }
 .seat.nscu {
-    fill: #909090;
+    fill: var(--nscu);
 }
 .seat.dnvp {
-    fill: #3F7BC1;
+    fill: var(--napp);
 }
 .seat.nsdap {
-    fill: #954B00;
+    fill: var(--anf);
 }
 .seat.sapd {
     fill: #C40000;
