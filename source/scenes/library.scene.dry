@@ -456,7 +456,7 @@ if (d3 && window) {
 
 {!<tr><td><div class="box" style='background-color:var(--dcp)'> </div></td><td>!} Z: {!</td><td>!} [+ z_r +]% {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:var(--rpp)'> </div></td><td>!} Z: {!</td><td>!} [+ z_r +]% {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:var(--rpp)'> </div></td><td>!} RPP: {!</td><td>!} [+ rpp_r +]% {!</td></tr>!}
 
 {!<tr><td><div class="box" style='background-color:var(--cldp)'> </div></td><td>!} DVP: {!</td><td>!} [+ dvp_r +]% {!</td></tr>!}
 
