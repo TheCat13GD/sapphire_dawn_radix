@@ -1,0 +1,26 @@
+title: XXXXXX calls a snap election
+subtitle: New elections in the midst of war
+new-page: true
+view-if: year = 9378 and month = 1
+max-visits: 1
+on-arrival: return_to_normalcy = 1; workers_nsdap -= 8; new_middle_nsdap -= 8; old_middle_nsdap -= 8; rural_nsdap -= 8; unemployed_nsdap -= 8; sa_strength *= 0.7
+call: set_next_election_time
+tags: event
+
+= Snap election called
+
+Since taking power in early October, the XXXXXX Government has faced a series of hurdles which have prevented it from exerting full control over the nation. WIP. As a means to break the deadlock, new elections have been called for February 9378, Week 3.
+
+Both the <span style="color: var(--vp);"><strong>VPs</strong></span> and <span style="color: var(--lf);"><strong>LF</strong></span> have announced that they will not participate in the election, while the <span style="color: var(--adp);"><strong>ADP</strong></span> and <span style="color: var(--dcp);"><strong>DCP</strong></span> may leave it up to their local branches to decide. Those who do participate will likely do so under a joint <span style="color: var(--opposition);">Republican</span> list.
+
+- @celebrate: This is an occasion to celebrate.
+- @complacency: The Nazis are still a threat. We must not be too complacent.
+
+@celebrate
+
+This is an occasion to celebrate! Hopefully he Nazis will no longer be a threat to the Republic.
+
+@complacency
+
+Even in their weakened state, the Nazis are still a threat. We must not be too complacent.
+
