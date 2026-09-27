@@ -296,20 +296,20 @@ Q.kpd_r = 8;
 Q.spd_r = 23;
 Q.ddp_r = 2;
 Q.z_r = 6;
-Q.dvp_r = 38;
+Q.dvp_r = 12;
 Q.dnvp_r = 6;
 Q.nsdap_r = 17;
-Q.nscu_r = 0;
+Q.nscu_r = 26;
 
 // diff from prev
 Q.old_kpd_r = 8;
 Q.old_spd_r = 23;
 Q.old_ddp_r = 2;
 Q.old_z_r = 6;
-Q.old_dvp_r = 38;
+Q.old_dvp_r = 12;
 Q.old_dnvp_r = 6;
 Q.old_nsdap_r = 17;
-Q.old_nscu_r = 0;
+Q.old_nscu_r = 26;
 
 // sapd isn't formed yet, but it may be formed
 Q.sapd_r = 0;
