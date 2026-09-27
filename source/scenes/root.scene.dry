@@ -107,7 +107,7 @@ Q.vps_relation = 65;
 Q.ddp_relation = 55;
 Q.z_relation = 45;
 Q.rpp_relation = 15;
-Q.cldp_relation = 15;
+Q.cldp_relation = 13;
 // NSCU, DNVP and NSDAP are invariably hostile
 Q.NSCU_relation = 5;
 Q.DNVP_relation = 10;
@@ -595,7 +595,7 @@ For more information on the politics and government of the German Republic, see 
 - @1928_historical: Begin (historical mode)
 
 @1928_easy
-on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 64; z_relation = 49; dvp_relation = 19; budget = 5;
+on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 64; z_relation = 49; dvp_relation = 17; budget = 5;
 go-to: intro
 
 @1928_hard
