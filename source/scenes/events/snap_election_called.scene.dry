@@ -3,7 +3,7 @@ subtitle: New elections in the midst of war
 new-page: true
 view-if: year = 9378 and month = 1
 max-visits: 1
-on-arrival: return_to_normalcy = 1; workers_nsdap -= 8; new_middle_nsdap -= 8; old_middle_nsdap -= 8; rural_nsdap -= 8; unemployed_nsdap -= 8; sa_strength *= 0.7
+on-arrival: return_to_normalcy = 1; time_to_election = 6; workers_nsdap -= 8; new_middle_nsdap -= 8; old_middle_nsdap -= 8; rural_nsdap -= 8; unemployed_nsdap -= 8; sa_strength *= 0.7
 call: set_next_election_time
 tags: event
 
