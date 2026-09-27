@@ -557,6 +557,7 @@ table {
 /* Styles for parties */
 :root {
   --radix-main: #243d61;
+  --opposition: #873260;
   --lf: #8B0000;
   --vp: #E3000F;
   --adp: #DCCA4A;
