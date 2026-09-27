@@ -2,7 +2,7 @@ title: The Death of Hindenburg
 subtitle: The President has died...
 new-page: true
 view-if: year = 1934 and month >= 7 and president = "Hindenburg"
-on-arrival: round = 0; hindenburg_dead = 1; president = "Bumke (acting)"; president = "Großmann (acting)" if judicial_reform >= 4; spd_candidate = "Eckener"; kpd_candidate = "Thälmann"; kpd_candidate = "Münzenberg" if kpd_party_leader = "Conciliators"; z_candidate = "Adenauer"; ddp_candidate = "Gessler"; nsdap_candidate = "Hitler"; nsdap_candidate = "Göring" if hitler_deported; dnvp_candidate = "Seldte"; dvp_candidate = "Gessler"; other_candidate = "Seldte"; is_unity_candidate = 0; sapd_candidate = kpd_candidate;
+on-arrival: round = 0; hindenburg_dead = 1; president = "Bumke (acting)"; president = "Großmann (acting)" if judicial_reform >= 4; spd_candidate = "Eckener"; kpd_candidate = "Thälmann"; kpd_candidate = "Münzenberg" if kpd_party_leader = "Conciliators"; z_candidate = "Adenauer"; ddp_candidate = "Gessler"; nsdap_candidate = "Hitler"; nsdap_candidate = "Göring" if hitler_deported; dnvp_candidate = "Seldte"; dvp_candidate = "Gessler"; nscu_candidate = "Seldte"; is_unity_candidate = 0; sapd_candidate = kpd_candidate;
 max-visits: 1
 face-image: img/Hindenburg_head.jpg
 tags: event
@@ -461,10 +461,10 @@ on-arrival: {!
 if (Q.Hitler_votes && Q.Seldte_votes) {
     if (Q.Hitler_votes > Q.Seldte_votes) {
         Q.dnvp_candidate = "Hitler";
-        Q.other_candidate = "Hitler";
-        Q.Hitler_bonus = (Q.Hitler_bonus || 0) - 0.25*Q.other_votes;
+        Q.nscu_candidate = "Hitler";
+        Q.Hitler_bonus = (Q.Hitler_bonus || 0) - 0.25*Q.nscu_votes;
         if (Q.z_candidate == "Adenauer") {
-            Q.Adenauer_bonus = (Q.Adenauer_bonus || 0) + 0.25*Q.other_votes;
+            Q.Adenauer_bonus = (Q.Adenauer_bonus || 0) + 0.25*Q.nscu_votes;
         }
     } else {
         Q.nsdap_candidate = "Seldte";
@@ -472,7 +472,7 @@ if (Q.Hitler_votes && Q.Seldte_votes) {
 } else if (Q.Goring_votes && Q.Seldte_votes) {
     if (Q.Goring_votes > Q.Seldte_votes) {
         Q.dnvp_candidate = "Göring";
-        Q.other_candidate = "Göring";
+        Q.nscu_candidate = "Göring";
     } else {
         Q.nsdap_candidate = "Seldte";
     }
@@ -489,16 +489,16 @@ if (Q.z_candidate == "Adenauer" && (Q.ddp_candidate == "Gessler" || Q.dvp_candid
         if (Q.dvp_candidate != Q.spd_candidate) {
             Q.dvp_candidate = "Adenauer";
         }
-        Q.Adenauer_bonus = (Q.Adenauer_bonus || 0) + 0.25*Q.other_votes;
+        Q.Adenauer_bonus = (Q.Adenauer_bonus || 0) + 0.25*Q.nscu_votes;
     } else {
         Q.adenauer_drops_out = 1;
         Q.z_candidate = "Gessler";
-        Q.Gessler_bonus = 0.25*Q.other_votes;
+        Q.Gessler_bonus = 0.25*Q.nscu_votes;
     }
     if (Q.nsdap_candidate == 'Seldte') {
-        Q.Seldte_bonus = (Q.Seldte_bonus || 0) - 0.25*Q.other_votes;
+        Q.Seldte_bonus = (Q.Seldte_bonus || 0) - 0.25*Q.nscu_votes;
     } else if (Q.nsdap_candidate == "Hitler") {
-        Q.Hitler_bonus = (Q.Hitler_bonus || 0) - 0.25*Q.other_votes;
+        Q.Hitler_bonus = (Q.Hitler_bonus || 0) - 0.25*Q.nscu_votes;
     }
 }
 // DVP drops out to favor the center candidate
