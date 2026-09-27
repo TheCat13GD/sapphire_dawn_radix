@@ -16,13 +16,13 @@ function addMonths(date, months) {
 d3.linegraph = function(noTicks, noDots, parties, partyColors, partyNames, dataMax, dataMin, additionalMonths) {
     /* params */
     if (!parties) {
-        parties = ['spd', 'kpd', 'ddp', 'z', 'dvp', 'dnvp', 'nsdap', 'nscu'];
+        parties = ['spd', 'kpd', 'ddp', 'z', 'rpp', 'dvp', 'dnvp', 'nsdap', 'nscu'];
     }
     if (!partyColors) {
-        partyColors = {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'nscu': '#a0a0a0'};
+        partyColors = {'spd': 'var(--vp)', 'kpd': 'var(--lf)', 'ddp': 'var(--adp)', 'z': 'var(--dcp)', 'rpp': 'var(--rpp)', 'dvp': 'var(--cldp)', 'dnvp': 'var(--napp)', 'nsdap': 'var(--anf)', 'nscu': 'var(--nscu)'};
     }
     if (!partyNames) {
-        partyNames = {'spd': 'SPD', 'kpd': 'KPD', 'ddp': 'DDP', 'z': 'Z', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'nscu': 'NSCU'};
+        partyNames = {'spd': 'SPD', 'kpd': 'KPD', 'ddp': 'DDP', 'z': 'Z', 'rpp': 'RPP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'nscu': 'NSCU'};
     }
     if (!additionalMonths) {
         additionalMonths = 10;
