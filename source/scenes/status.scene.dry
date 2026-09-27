@@ -44,6 +44,7 @@ Reichstag composition:
 {!<span class="tooltip-text" title="Social Democratic Party of Germany" style="color: var(--vp);"><strong>SPD</strong></span>!}: [+ spd_r +]%
 {!<span class="tooltip-text" title="German Democratic Party" style="color: var(--adp);"><strong>DDP</strong></span>!}: [+ ddp_r +]%
 {!<span class="tooltip-text" title="Center Party" style="color: var(--dcp);"><strong>Z</strong></span>!}: [+ z_r +]%
+{!<span class="tooltip-text" title="Revolutionary Progress Party" style="color: var(--rpp);"><strong>RPP</strong></span>!}: [+ rpp_r +]%
 {!<span class="tooltip-text" title="German People's Party" style="color: var(--cldp);"><strong>DVP</strong></span>!}: [+ dvp_r +]%
 {!<span class="tooltip-text" title="National-Social Common Union" style="color: var(--nscu);"><strong>NSCU</strong></span>!}: [+ nscu_r +]%
 {!<span class="tooltip-text" title="German National People's Party" style="color: var(--napp);"><strong>DNVP</strong></span>!}: [+ dnvp_r +]%
