@@ -40,14 +40,14 @@ Legitimacy: WIP
 
 Reichstag composition:
 
-{!<span class="tooltip-text" title="Communist Party of Germany" style="color: var(--lf);">KPD</span>!}: [+ kpd_r +]%
-{!<span class="tooltip-text" title="Social Democratic Party of Germany" style="color: var(--vp);">SPD</span>!}: [+ spd_r +]%
-{!<span class="tooltip-text" title="German Democratic Party" style="color: var(--adp);">DDP</span>!}: [+ ddp_r +]%
-{!<span class="tooltip-text" title="Center Party + Bavarian People's Party" style="color: var(--dcp);">Z</span>!}: [+ z_r +]%
-{!<span class="tooltip-text" title="German People's Party" style="color: var(--cldp);">DVP</span>!}: [+ dvp_r +]%
-{!<span class="tooltip-text" title="National-Social Common Union" style="color: var(--nscu);">NSCU</span>!}: [+ nscu_r +]%
-{!<span class="tooltip-text" title="German National People's Party" style="color: var(--napp);">DNVP</span>!}: [+ dnvp_r +]%
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)" style="color: var(--anf);">NSDAP</span>!}: [+ nsdap_r +]%
+{!<span class="tooltip-text" title="Communist Party of Germany" style="color: var(--lf);"><strong>KPD</strong></span>!}: [+ kpd_r +]%
+{!<span class="tooltip-text" title="Social Democratic Party of Germany" style="color: var(--vp);"><strong>SPD</strong></span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="German Democratic Party" style="color: var(--adp);"><strong>DDP</strong></span>!}: [+ ddp_r +]%
+{!<span class="tooltip-text" title="Center Party" style="color: var(--dcp);"><strong>Z</strong></span>!}: [+ z_r +]%
+{!<span class="tooltip-text" title="German People's Party" style="color: var(--cldp);"><strong>DVP</strong></span>!}: [+ dvp_r +]%
+{!<span class="tooltip-text" title="National-Social Common Union" style="color: var(--nscu);"><strong>NSCU</strong></span>!}: [+ nscu_r +]%
+{!<span class="tooltip-text" title="German National People's Party" style="color: var(--napp);"><strong>DNVP</strong></span>!}: [+ dnvp_r +]%
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)" style="color: var(--anf);"><strong>NSDAP</strong></span>!}: [+ nsdap_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
@@ -76,23 +76,23 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 
 = Inter-party Relations
 
-{!<span class="tooltip-text" title="Communist Party of Germany" style="color: var(--lf);">KPD</span>!}: [+ kpd_relation : relationships +]
+{!<span class="tooltip-text" title="Communist Party of Germany" style="color: var(--lf);"><strong>KPD</strong></span>!}: [+ kpd_relation : relationships +]
 
-{!<span class="tooltip-text" title="Party of Verdantian-Progressives" style="color: var(--vp);">VPs</span>!}: WIP
+{!<span class="tooltip-text" title="Party of Verdantian-Progressives" style="color: var(--vp);"><strong>VPs</strong></span>!}: [+ vps_relation : relationships +]
 
-{!<span class="tooltip-text" title="German Democratic Party" style="color: var(--adp);">DDP</span>!}: [+ ddp_relation : relationships +]
+{!<span class="tooltip-text" title="German Democratic Party" style="color: var(--adp);"><strong>DDP</strong></span>!}: [+ ddp_relation : relationships +]
 
-{!<span class="tooltip-text" title="Center Party" style="color: var(--dcp);">Z</span>!}: [+ z_relation : relationships +]
+{!<span class="tooltip-text" title="Center Party" style="color: var(--dcp);"><strong>Z</strong></span>!}: [+ z_relation : relationships +]
 
-{!<span class="tooltip-text" title="Revolutionary Progress Party" style="color: var(--rpp);">RPP</span>!}: WIP
+{!<span class="tooltip-text" title="Revolutionary Progress Party" style="color: var(--rpp);"><strong>RPP</strong></span>!}: [+ rpp_relation : relationships +]
 
-{!<span class="tooltip-text" title="German People's Party" style="color: var(--cldp);">DVP</span>!}: [+ dvp_relation : relationships +]
+{!<span class="tooltip-text" title="German People's Party" style="color: var(--cldp);"><strong>DVP</strong></span>!}: [+ dvp_relation : relationships +]
 
-{!<span class="tooltip-text" title="National-Social Common Union" style="color: var(--nscu);">NSCU</span>!}: WIP
+{!<span class="tooltip-text" title="National-Social Common Union" style="color: var(--nscu);"><strong>NSCU</strong></span>!}: [+ nscu_relation : relationships +]
 
-{!<span class="tooltip-text" title="German National People's Party" style="color: var(--napp);">DNVP</span>!}: [+ dnvp_relation : relationships +]
+{!<span class="tooltip-text" title="German National People's Party" style="color: var(--napp);"><strong>DNVP</strong></span>!}: [+ dnvp_relation : relationships +]
 
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)" style="color: var(--anf);">NSDAP</span>!}: [+ nsdap_relation : relationships +]
+{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)" style="color: var(--anf);"><strong>NSDAP</strong></span>!}: [+ nsdap_relation : relationships +]
 
 = Internal Factions of the <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span>
 
