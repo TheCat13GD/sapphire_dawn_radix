@@ -11,7 +11,7 @@ Q.rural_srpd = 1;
 Q.unemployed_srpd = 2;
 Q.catholics_srpd = 1;
 
-Q.workers_other -= 2;
+Q.workers_nscu -= 2;
 
 if (Q.unions_independent) {
     Q.workers_srpd += 8;
