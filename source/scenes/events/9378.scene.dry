@@ -1,0 +1,17 @@
+title: 9378
+subtitle: A new year
+new-page: true
+tags: event
+priority: 2
+view-if: year >= 9378 and month >= 1
+max-visits: 1
+on-arrival: {!
+if (Q.unemployed >= 20) {
+    Q.unemployed -= 2;
+    Q.inflation += 1;
+}
+!}
+
+= 9378
+
+A new year begins. WIP.
