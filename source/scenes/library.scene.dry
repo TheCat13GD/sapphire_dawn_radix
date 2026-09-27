@@ -202,7 +202,6 @@ go-to: menu
 
 Current relations: [+ z_relation : relationships +]
 
-# TODO: replace this with the german state party after 1930
 **DDP** - *Deutsche Demokratische Partei* (German Democratic Party) - a center-left liberal party, popular among the intelligensia and educated middle class. They have often been in coalitions with us.
 
 Current relations: [+ ddp_relation : relationships +]
@@ -226,6 +225,8 @@ Current relations: [+ kpd_relation : relationships +]
 Current relations: [+ nsdap_relation : relationships +]
 
 **NSCU** - there is a multitude of small, mostly conservative groups whose political position usually lies between the DVP and DNVP.
+
+Current relations: [+ nscu_relation : relationships +]
 
 @paramilitaries
 on-arrival: {!
@@ -363,6 +364,12 @@ data = data.concat([
         "seats": Q.z_r*5,
     },
     {
+        "id": "rpp",
+        "legend": "RPP",
+        "name": "RPP",
+        "seats": Q.rpp_r*5,
+    },
+    {
         "id": "dvp",
         "legend": "DVP",
         "name": "DVP",
@@ -405,8 +412,8 @@ if (d3 && window) {
 
     var lines = d3.linegraph(false, false,
             Q.parties,
-            {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'nscu': '#a0a0a0', 'sapd': '#c40000'},
-            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'nscu': 'NSCU', 'sapd': 'SAPD'});
+            {'spd': '#E3000F', 'var(--vp)': 'var(--lf)', 'ddp': 'var(--adp)', 'z': 'var(--dcp)', 'rpp': 'var(--rpp)', 'dvp': 'var(--cldp)', 'dnvp': 'var(--napp)', 'nsdap': 'var(--anf)', 'nscu': 'var(--nscu)', 'sapd': '#c40000'},
+            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z', 'rpp': 'RPP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'nscu': 'NSCU', 'sapd': 'SAPD'});
     lines.width(width).height(400);
     //var svg = lines(Q.election_records);
     if (Q.election_records.length > 0) {
@@ -418,8 +425,8 @@ if (d3 && window) {
     if (!Q.historical_mode || Q.game_over) {
         var lines_2 = d3.linegraph(true, true,
             Q.parties,
-            {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'nscu': '#a0a0a0', 'sapd': '#c40000'},
-            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'nscu': 'NSCU', 'sapd': 'SAPD'});
+            {'spd': '#E3000F', 'var(--vp)': 'var(--lf)', 'ddp': 'var(--adp)', 'z': 'var(--dcp)', 'rpp': 'var(--rpp)', 'dvp': 'var(--cldp)', 'dnvp': 'var(--napp)', 'nsdap': 'var(--anf)', 'nscu': 'var(--nscu)', 'sapd': '#c40000'},
+            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.ddp_name, 'z': 'Z', 'rpp': 'RPP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'nscu': 'NSCU', 'sapd': 'SAPD'});
         lines_2.width(width).height(400);
         d3.select("#party_support_history").datum(Q.party_support_records).call(lines_2);
     }
@@ -441,23 +448,25 @@ if (d3 && window) {
 {!<svg id="reichstag" style="width: 500px; height: 250px;"> </svg>!}
 
 {!<table>!}
-{!<tr><td><div class="box" style='background-color:#E3000F; outline: 2px; outline-style: solid;'> </div></td><td>!} **SPD:** {!</td><td>!} **[+ spd_r +]%** {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:var(--lf)'> </div></td> <td>!}KPD: {!</td><td>!} [+ kpd_r +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--vp)'> </div></td><td>!} SPD: {!</td><td>!} [+ spd_r +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--adp)'> </div></td><td>!} [+ ddp_name +]: {!</td><td>!} [+ ddp_r +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--dcp)'> </div></td><td>!} Z: {!</td><td>!} [+ z_r +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--rpp)'> </div></td><td>!} Z: {!</td><td>!} [+ z_r +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--cldp)'> </div></td><td>!} DVP: {!</td><td>!} [+ dvp_r +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--nscu)'> </div></td><td>!} NSCU: {!</td><td>!} [+ nscu_r +] % {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--napp)'> </div></td><td>!} DNVP: {!</td><td>!} [+ dnvp_r +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:#var(--anf)'> </div></td><td>!} NSDAP: {!</td><td>!} [+ nsdap_r +]% {!</td></tr>!}
 
 [? if sapd_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div></td> <td> !}SAPD: {!</td><td>!} [+ sapd_r +]% {!</td></tr>!} ?]
-
-{!<tr><td><div class="box" style='background-color:#8B0000'> </div></td> <td>!}KPD: {!</td><td>!} [+ kpd_r +]% {!</td></tr>!}
-
-{!<tr><td><div class="box" style='background-color:#DCCA4A'> </div></td><td>!} [+ ddp_name +]: {!</td><td>!} [+ ddp_r +]% {!</td></tr>!}
-
-{!<tr><td><div class="box" style='background-color:#000'> </div></td><td>!} Z: {!</td><td>!} [+ z_r +]% {!</td></tr>!}
-
-{!<tr><td><div class="box" style='background-color:#D5AC27'> </div></td><td>!} DVP: {!</td><td>!} [+ dvp_r +]% {!</td></tr>!}
-
-{!<tr><td><div class="box" style='background-color:#a0a0a0'> </div></td><td>!} NSCU: {!</td><td>!} [+ nscu_r +] % {!</td></tr>!}
-
-{!<tr><td><div class="box" style='background-color:#3f7bc1'> </div></td><td>!} DNVP: {!</td><td>!} [+ dnvp_r +]% {!</td></tr>!}
-
-{!<tr><td><div class="box" style='background-color:#954B00'> </div></td><td>!} NSDAP: {!</td><td>!} [+ nsdap_r +]% {!</td></tr>!}
 {!</table>!}
 
 = Election history
