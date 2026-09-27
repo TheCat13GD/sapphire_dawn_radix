@@ -464,7 +464,7 @@ if (d3 && window) {
 
 {!<tr><td><div class="box" style='background-color:var(--napp)'> </div></td><td>!} DNVP: {!</td><td>!} [+ dnvp_r +]% {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#var(--anf)'> </div></td><td>!} NSDAP: {!</td><td>!} [+ nsdap_r +]% {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:var(--anf)'> </div></td><td>!} NSDAP: {!</td><td>!} [+ nsdap_r +]% {!</td></tr>!}
 
 [? if sapd_formed : {!<tr><td><div class="box" style='background-color:#C40000'> </div></td> <td> !}SAPD: {!</td><td>!} [+ sapd_r +]% {!</td></tr>!} ?]
 {!</table>!}
