@@ -570,8 +570,9 @@ table {
   --left: #005426;
   --center: #4bb34e;
   --labor: #90c75a;
-  --right: #9bcf88;
+  --reformist: #ff69b4;
   --neorev: #2f8a61;
+  --right: #9bcf88;
 }
 .seat.kpd {
     fill: var(--lf);
@@ -615,10 +616,13 @@ table {
     fill: var(--labor);
 }
 .seat.reformist {
-    fill: var(--right);
+    fill: var(--reformist);
 }
 .seat.neorevisionist {
     fill: var(--neorev);
+}
+.seat.right {
+    fill: var(--right);
 }
 
 .tooltip-text {
