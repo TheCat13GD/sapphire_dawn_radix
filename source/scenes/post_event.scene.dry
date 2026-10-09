@@ -85,6 +85,7 @@ Q.labor_strength = 100*Q.labor_strength/total_strength;
 Q.reformist_strength = 100*Q.reformist_strength/total_strength;
 Q.neorevisionist_strength = 100*Q.neorevisionist_strength/total_strength;
 Q.right_strength = 100*Q.right_strength/total_strength;
+console.log('new total strength: ' + total_strength);
 
 var total_dissent = Q.left_strength*Q.left_dissent + Q.center_strength*Q.center_dissent + Q.labor_strength*Q.labor_dissent + Q.reformist_strength*Q.reformist_dissent + Q.neorevisionist_strength*Q.neorevisionist_dissent + Q.right_strength*Q.right_dissent;
 
