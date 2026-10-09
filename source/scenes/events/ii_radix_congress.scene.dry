@@ -56,6 +56,12 @@ data = data.concat([
         "name": "Neorevisionists",
         "seats": Q.neorevisionist_strength*5,
     },
+    {
+        "id": "right",
+        "legend": "Right",
+        "name": "Right",
+        "seats": Q.right_strength*5,
+    },
 ]);
 if (d3 && window) {
     // get screen width
@@ -84,9 +90,11 @@ if (d3 && window) {
 
 {!<tr><td><div class="box" style='background-color:var(--labor)'> </div></td><td>!}Labor: {!</td><td>!} [+ labor_strength +]% {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:var(--right)'> </div></td><td>!}Reformists: {!</td><td>!} [+ reformist_strength +]% {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:var(--reformist)'> </div></td><td>!}Reformists: {!</td><td>!} [+ reformist_strength +]% {!</td></tr>!}
 
 {!<tr><td><div class="box" style='background-color:var(--neorev)'> </div></td> <td>!}NeoRevs: {!</td><td>!} [+ neorevisionist_strength +]% {!</td></tr>!}
+
+{!<tr><td><div class="box" style='background-color:var(--right)'> </div></td> <td>!}Right: {!</td><td>!} [+ right_strength +]% {!</td></tr>!}
 {!</table>!}
 
 The first matter in the conference is the program to appeal to stoopid workers. (This is a placeholder.)
