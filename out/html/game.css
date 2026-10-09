@@ -567,6 +567,11 @@ table {
   --nscu: #A0A0A0;
   --napp: #3F7BC1;
   --anf: #954B00;
+  --left: #005426;
+  --center: #4bb34e;
+  --labor: #90c75a;
+  --right: #9bcf88;
+  --neorev: #2f8a61;
 }
 .seat.kpd {
     fill: var(--lf);
@@ -594,6 +599,23 @@ table {
 }
 .seat.sapd {
     fill: #C40000;
+}
+
+/* Internal factions */
+.seat.left {
+    fill: var(--left);
+}
+.seat.center {
+    fill: var(--center);
+}
+.seat.labor {
+    fill: var(--labor);
+}
+.seat.reformist {
+    fill: var(--right);
+}
+.seat.neorevisionist {
+    fill: var(--neorev);
 }
 
 .tooltip-text {
