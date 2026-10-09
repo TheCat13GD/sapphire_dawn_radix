@@ -59,7 +59,7 @@ Q.reformist_strength = 16;
 Q.reformist_dissent = 5;
 Q.neorevisionist_strength = 7.5;
 Q.neorevisionist_dissent = 10;
-Q.neorevisionist_strength = 2.5;
+Q.right_strength = 2.5;
 Q.right_dissent = 15;
 
 // secret events...
