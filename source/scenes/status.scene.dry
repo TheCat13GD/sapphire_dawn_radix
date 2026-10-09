@@ -105,7 +105,7 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 
 {!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Neorevisionist.">Neorevisionist</span>!} strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
+{!<span class="tooltip-text" title="Neorevisionist.">Neorevisionist</span>!} strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +]
 
 
 @paramilitaries
