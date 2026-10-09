@@ -364,7 +364,7 @@ data = data.concat([
         "id": "rpp",
         "legend": "RPP",
         "name": "RPP",
-        "seats": Q.rpp_r*5,
+        "seats": 100, /* Q.rpp_r*5 */
     },
     {
         "id": "dvp",
