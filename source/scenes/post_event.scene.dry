@@ -81,13 +81,15 @@ console.log('value of total_strength (in theory): ' + (Q.left_strength + Q.cente
 
 // normalize strength for the different factions
 console.log('old left strength: ' + Q.left_strength);
+console.log('old right strength: ' + Q.right_strength);
 Q.left_strength = 100*Q.left_strength/total_strength;
-console.log('new left strength: ' + Q.left_strength);
 Q.center_strength = 100*Q.center_strength/total_strength;
 Q.labor_strength = 100*Q.labor_strength/total_strength;
 Q.reformist_strength = 100*Q.reformist_strength/total_strength;
 Q.neorevisionist_strength = 100*Q.neorevisionist_strength/total_strength;
 Q.right_strength = 100*Q.right_strength/total_strength;
+console.log('new left strength: ' + Q.left_strength);
+console.log('new right strength: ' + Q.right_strength);
 
 var total_dissent = Q.left_strength*Q.left_dissent + Q.center_strength*Q.center_dissent + Q.labor_strength*Q.labor_dissent + Q.reformist_strength*Q.reformist_dissent + Q.neorevisionist_strength*Q.neorevisionist_dissent + Q.right_strength*Q.right_dissent;
 
