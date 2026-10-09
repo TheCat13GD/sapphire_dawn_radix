@@ -275,7 +275,7 @@ Loyalty: [+ prussian_police_loyalty : loyalty +]
 
 
 @factions
-go-to: neorevisionists if neorevisionism > 0; menu if neorevisionism <= 0
+go-to: menu
 
 **Internal factions of the SPD**
 
@@ -312,9 +312,6 @@ Reformists are pragmatic participants in government, and seek to expand the welf
 Strength: [+ reformist_strength : strength +]
 
 Dissent: [+ reformist_dissent : dissent +]
-
-@neorevisionists
-go-to: menu
 
 **Neorevisionists**
 
