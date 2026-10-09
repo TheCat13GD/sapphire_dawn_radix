@@ -107,6 +107,8 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 
 {!<span class="tooltip-text" title="Neorevisionist.">Neorevisionist</span>!} strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +]
 
+{!<span class="tooltip-text" title="Right.">Right</span>!} strength: [+ right_strength : strength +], dissent: [+ right_dissent : dissent +]
+
 
 @paramilitaries
 on-arrival: {!
