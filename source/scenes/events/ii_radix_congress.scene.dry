@@ -26,12 +26,18 @@ on-arrival: {!
 on-display: {!
 data = [
     {
+        "id": "communist",
+        "legend": "Communists",
+        "name": "Communists",
+        "seats": Q.communist_strength*5,
+    }];
+data = data.concat([
+    {
         "id": "left",
         "legend": "Left",
         "name": "Left",
         "seats": Q.left_strength*5,
-    }];
-data = data.concat([
+    },
     {
         "id": "center",
         "legend": "Center",
@@ -84,6 +90,8 @@ if (d3 && window) {
 {!<svg id="reichstag" style="width: 500px; height: 250px;"> </svg>!}
 
 {!<table>!}
+{!<tr><td><div class="box" style='background-color:var(--communist)'> </div></td> <td>!}Communists: {!</td><td>!} [+ communist_strength +]% {!</td></tr>!}
+
 {!<tr><td><div class="box" style='background-color:var(--left)'> </div></td> <td>!}Left: {!</td><td>!} [+ left_strength +]% {!</td></tr>!}
 
 {!<tr><td><div class="box" style='background-color:var(--center)'> </div></td> <td>!}Center: {!</td><td>!} [+ center_strength +]% {!</td></tr>!}
