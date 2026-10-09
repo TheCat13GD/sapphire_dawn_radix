@@ -585,6 +585,9 @@ table {
 .seat.z {
     fill: var(--dcp);
 }
+.seat.rpp {
+    fill: var(--rpp);
+}
 .seat.dvp {
     fill: var(--cldp);
 }
