@@ -1,1 +1,30 @@
+title: Courting Allies
+new-page: true
+view-if: courting_allies_timer <= 0
+tags: party_affairs
+is-card: true
+on-arrival: month_actions += 1; courting_allies_timer = 2;
+card-image: img/weimar_coalition_2.jpg
+#subtitle: Cooperating with leaders of other Republican movements. WIP.
 
+= Courting Allies
+
+It is clear that we ourselves cannot win this war alone. You and your partners in the <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> leadership posess a series of contacts outside the organization. WIP.
+
+- @meet_vps: Arrange an informal meeting with <span style="color: var(--vp);">Verdantian-Progressive</span> leaders.
+- @nothing: Do nothing.
+- @easy_discard
+
+
+@meet_vps
+subtitle: WIP.
+on-arrival: vps_relation += 1
+
+WIP.
+
+
+@nothing
+
+We won't do this for now.
+
+- @return: Continue...
