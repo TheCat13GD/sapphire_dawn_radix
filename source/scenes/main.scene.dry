@@ -48,7 +48,7 @@ max-cards: 6
 
 @exec
 title: Executive Affairs
-card-image: img/Vorwaerts_nr_1.png
+card-image: img/placeholder.png
 is-deck: true
 
 - #exec_affairs
