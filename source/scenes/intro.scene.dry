@@ -116,7 +116,3 @@ new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
 = November 9377, Week 3
-
-It is a grim time for Aurelia and the world. Lately, an uprecedented series of conflicts, invasions and coups has been ravaging the entire continent, and it seems Aurelia hasn't been spared, despite coming from a period of notable stability. Before most could even comprehend what was happening, the country now finds itself torn apart by the actions of a pile of criminals presenting themselves as a legitimate government.
-
-Now, our task is to lead the Republican forces into victory, or at the very least, survival. We must be prepared for anything that might come our way.
