@@ -1,7 +1,7 @@
 title: Courting Allies
 new-page: true
 view-if: courting_allies_timer <= 0
-tags: party_affairs
+tags: exec_affairs
 is-card: true
 on-arrival: month_actions += 1; courting_allies_timer = 2;
 card-image: img/weimar_coalition_2.jpg
