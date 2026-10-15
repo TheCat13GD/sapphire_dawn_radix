@@ -4,7 +4,7 @@ view-if: courting_allies_timer <= 0
 tags: exec_affairs
 is-card: true
 on-arrival: month_actions += 1; courting_allies_timer = 2;
-card-image: img/weimar_coalition_2.jpg
+card-image: img/placeholder.png
 #subtitle: Cooperating with leaders of other Republican movements. WIP.
 
 = Courting Allies
