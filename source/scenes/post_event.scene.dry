@@ -116,6 +116,13 @@ if (Q.month_actions >= 1) {
             Q.resources += 2;
         }
     }
+    ////////// update the news
+    Q.news_text = ""
+    if (year == 9377) {
+        if (month == 11 && week == 4) {
+            Q.news_text = "WIP."
+        }
+    }
     // decrement timers
     for (timer of Q.timers) {
         if (Q[timer+'_timer'] && Q[timer+'_timer'] > 0) {
