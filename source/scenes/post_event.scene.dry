@@ -466,6 +466,14 @@ if (Q.month_actions >= 1) {
             Q.catholics_spd -= 6/12;
         }
     }
+    ////////////////////////////// update the news
+    Q.news_text = ""
+    if (year = 9377) {
+        if (month = 11 && week = 4) {
+            Q.news_text = "WIP."
+        }
+    }
+
 }
 Q.has_event = 0;
 // check if there are any cards in #event, and then go to main if not.
