@@ -14,7 +14,10 @@ max-cards: 5
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
+{!<div class="news_section">
+{!<span class="news" style="color: #8b0000;"><strong>KPD</strong></span>!}
 [+ news_text +]
+</div>!}
 
 - @party
 - @govt
@@ -37,7 +40,10 @@ max-cards: 6
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
+{!<div class="news_section">
+{!<span class="news" style="color: #8b0000;"><strong>KPD</strong></span>!}
 [+ news_text +]
+</div>!}
 
 - @exec
 - @party
