@@ -116,11 +116,11 @@ if (Q.month_actions >= 1) {
             Q.resources += 2;
         }
     }
-    ////////// update the news
+    //////////////////// update the news
     Q.news_text = "We'll be right back."
     if (Q.year == 9377) {
         if (Q.month == 11 && Q.week == 4) {
-            Q.news_text = "Following the violent interruption of our first conference, our congress has been scheduled to reconvene next week at a different location, in order to WIP.<br><br>The <strong>VPs</strong> are also set to hold their congress soon, and it will likely be right after ours is done."
+            Q.news_text = "Following the violent interruption of our first conference, our congress has been scheduled to reconvene next week at a different location, in order to WIP.<br><br>The <strong>VPs</strong> are also set to hold their congress soon, and it will likely take place right after ours is finished."
         }
     }
     // decrement timers
