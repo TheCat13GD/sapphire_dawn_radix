@@ -118,12 +118,12 @@ if (Q.month_actions >= 1) {
     }
     ////////// update the news
     Q.news_text = "We'll be right back."
-    if (year == 9377) {
+    if (Q.year == 9377) {
         Q.news_text = "1st check has passed."
-        if (month == 11) {
+        if (Q.month == 11) {
             Q.news_text = "Month is correct."
         }
-        if (month == 11 && week == 4) {
+        if (Q.month == 11 && Q.week == 4) {
             Q.news_text = "WIP."
         }
     }
