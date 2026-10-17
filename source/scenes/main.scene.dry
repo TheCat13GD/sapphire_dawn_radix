@@ -14,7 +14,7 @@ max-cards: 5
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-<div class="news_section">
+<div class="news_box">
 {!<span class="news" style="color: #ffd700;"><strong>NEWS</strong></span>!}
 
 [+ news_text +]
@@ -41,7 +41,7 @@ max-cards: 6
 
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
-<div class="news_section">
+<div class="news_box">
 {!<span class="news" style="color: #ffd700;"><strong>NEWS</strong></span>!}
 
 [+ news_text +]
