@@ -640,12 +640,12 @@ table {
     color: #fff;
     background-image: linear-gradient(#0047ab, #002d6d);
 }
-.news {
+.news_h {
     background-image: linear-gradient(to right, orange, gold);
     padding-left: 0.75em;
     padding-right: 0.75em;
     font-size: 1.25em;
 }
-.news_box p {
+.news {
     padding: 0.375em;
 }
