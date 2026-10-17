@@ -15,9 +15,9 @@ max-cards: 5
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
 <div class="news_box">
-{!<span class="news_h"><strong>NEWS</strong></span>!}
+<span class="news_h"><strong>NEWS</strong></span>
 <br>
-{!<span class="news">[+ news_text +]</span>!}
+{!<span class="news">!}[+ news_text +]{!</span>!}
 </div>
 
 - @party
@@ -42,9 +42,9 @@ max-cards: 6
 #Here, the main deck will be displayed. Clicking on the deck draws a card into your hand. Clicking on a card activates that card.
 
 <div class="news_box">
-{!<span class="news_h"><strong>NEWS</strong></span>!}
+<span class="news_h"><strong>NEWS</strong></span>
 <br>
-{!<span class="news">[+ news_text +]</span>!}
+{!<span class="news">!}[+ news_text +]{!</span>!}
 </div>
 
 - @exec
