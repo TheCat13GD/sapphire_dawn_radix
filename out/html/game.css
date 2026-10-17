@@ -320,15 +320,6 @@ blockquote + blockquote.attribution {
 .delete_button {
 }
 
-//News stuffs
-.news_box {
-    color: #fff;
-    background-image: linear-gradient(#0047ab, #002d6d);
-}
-.news {
-    font-size: 16px;
-}
-
 
 /*
  * Card stuff for dendrynexus
@@ -642,4 +633,13 @@ table {
 .tooltip-text {
     text-decoration: underline;
     text-decoration-style: dotted;
+}
+
+/* News stuffs */
+.news_box {
+    color: #fff;
+    background-image: linear-gradient(#0047ab, #002d6d);
+}
+.news {
+    font-size: 16px;
 }
