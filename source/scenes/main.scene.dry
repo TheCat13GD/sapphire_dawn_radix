@@ -17,7 +17,7 @@ max-cards: 5
 <div class="news_box">
 <span class="news_h"><strong>NEWS</strong></span>
 <br>
-{!<span class="news">!}[+ news_text +]{!</span>!}
+<div class="news">[+ news_text +]</div>
 </div>
 
 - @party
