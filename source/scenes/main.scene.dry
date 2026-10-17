@@ -16,7 +16,7 @@ max-cards: 5
 
 <div class="news_box">
 {!<span class="news"><strong>NEWS</strong></span>!}
-
+<br>
 [+ news_text +]
 </div>
 
@@ -43,7 +43,7 @@ max-cards: 6
 
 <div class="news_box">
 {!<span class="news"><strong>NEWS</strong></span>!}
-
+<br>
 [+ news_text +]
 </div>
 
