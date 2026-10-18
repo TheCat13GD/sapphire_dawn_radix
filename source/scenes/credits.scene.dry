@@ -31,7 +31,16 @@ Nothing to see here yet, but be sure to check every now and then ;)
 
 = To-do list
 
-WIP.
+Main priorities:
+- Use dark theme by default
+- Increase advisor limit to 4
+- Functional RADIX Front and PopFront variables (visible in Status -> Main)
+- Improve the News section's appearance
+- Advisors for all factions
+- Youth wing leader advisor (cannot be manually changed, but rather through events)
+- Change page titles (must come up with a final idea for the name of the game first)
+- Edit library (must do a series of other changes first)
+- Use seat numbers for parliament composition
 
 - @credits: Back
 
