@@ -565,31 +565,30 @@ Q.rosenfeld_advisor = 0; // Kurt Rosenfeld
 Q.seydewitz_advisor = 0; // Max Seydewitz
 
 // centrist alternate advisors
-Q.pfulf_advisor = 0; // Antonie Pfülf
 Q.breitscheid_advisor = 0; // Rudolf Breitscheid
 
 // Reformist advisors
-Q.severing_advisor = 0; // Carl Severing
+Q.severing_advisor = 1; // Carl Severing
 Q.braun_advisor = 0; // Otto Braun
 Q.juchacz_advisor = 0; // Marie Juchacz
-Q.baade_advisor = 0; // Fritz Baade
+Q.pfulf_advisor = 0; // Antonie Pfülf
 
 // Labor advisors
 Q.leipart_advisor = 0; // Theodor Leipart
 Q.aufhauser_advisor = 0; // Siegfried Aufhäuser
-Q.woytinsky_advisor = 0; // Wladimir Woytinsky (post-1930)
+Q.woytinsky_advisor = 0; // Wladimir Woytinsky
 Q.wissell_advisor = 0; // Rudolf Wissell
 
 // Revisionist advisors
-Q.mierendorff_advisor = 0; // Carlo Mierendorf (post-1930)
-
-Q.leber_advisor = 0; // Julius Leber (post-1930)
-Q.schumacher_advisor = 0; // Kurt Schumacher (post-1930)
+Q.mierendorff_advisor = 0; // Carlo Mierendorf
+Q.leber_advisor = 0; // Julius Leber
+Q.schumacher_advisor = 0; // Kurt Schumacher
 
 // Nonfactional advisors
 Q.hirschfeld_advisor = 0; // Magnus Hirschfeld
 Q.radbruch_advisor = 0; // Gustav Radbruch
 Q.stampfer_advisor = 0; // Friedrich Stampfer
+Q.baade_advisor = 0; // Fritz Baade
 
 // Initial news flavor text
 Q.news_text = "It is a grim time for Aurelia and the world. Lately, an uprecedented series of conflicts, invasions and coups has been ravaging the entire continent, and it seems Aurelia hasn't been spared, despite coming from a period of notable stability. Before most could even comprehend what was happening, the country now finds itself torn apart by the actions of a pile of criminals presenting themselves as a legitimate government.<br><br>Now, our task is to help lead the Republican forces into victory, or at the very least, survival. We must be prepared for anything that might come our way.";
