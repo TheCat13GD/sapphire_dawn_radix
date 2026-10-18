@@ -32,15 +32,18 @@ Nothing to see here yet, but be sure to check every now and then ;)
 = To-do list
 
 Main priorities:
-· Use dark theme by default
 
-· Increase advisor limit to 4
+· Use dark theme by default
 
 · Functional RADIX Front and PopFront variables (visible in Status -> Main)
 
 · Improve the News section's appearance
 
 · Advisors for all factions
+
+· 3/6 weeks advisor shuffle cooldown
+
+· change advisor action cooldown? (current is 5 weeks)
 
 · Youth wing leader advisor (cannot be manually changed, but rather through events)
 
