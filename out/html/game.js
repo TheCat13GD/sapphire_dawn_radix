@@ -313,9 +313,10 @@
 
   window.onload = function() {
     window.dendryUI.loadSettings({show_portraits: false});
-    if (window.dendryUI.dark_mode) {
+    document.body.classList.add('dark-mode');
+    /* if (window.dendryUI.dark_mode) {
         document.body.classList.add('dark-mode');
-    }
+    } */
     if (window.dendryUI.font_size != 1.1) {
         var fs = window.dendryUI.font_size;
         var sidebar_fs = fs - 0.1;
