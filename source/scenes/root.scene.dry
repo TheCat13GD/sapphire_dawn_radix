@@ -604,10 +604,16 @@ This is a game of alternate history. While historical accuracy is a major concer
 
 For more information on the politics and government of the German Republic, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
 
+- @1928_deterministic: Begin (deterministic mode)
 - @1928_easy: Begin (easy difficulty)
 - @intro: Begin (normal difficulty)
 - @1928_hard: Begin (hard difficulty)
 - @1928_historical: Begin (historical mode)
+
+@1928_deterministic
+subtitle: A variant of easy difficulty with deterministic features. Achievements will be disabled.
+on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 64; z_relation = 49; dvp_relation = 17; budget = 5;
+go-to: intro
 
 @1928_easy
 on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 64; z_relation = 49; dvp_relation = 17; budget = 5;
