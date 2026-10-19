@@ -45,7 +45,8 @@ Q.resources = 2;
 Q.dues = 2;
 
 // the state of the party
-
+Q.radix_membership = 14250;
+Q.approval_rating = 59;
 // overall dissent reduces every increase in party support.
 Q.dissent = 0.05;
 Q.dissent_percent = 5;
