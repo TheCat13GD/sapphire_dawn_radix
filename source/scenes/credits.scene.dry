@@ -33,8 +33,6 @@ Nothing to see here yet, but be sure to check every now and then ;)
 
 Main priorities:
 
-· Functional deterministic difficulty and displays
-
 · Functional RADIX Front and PopFront variables (visible in Status -> Main)
 
 · Improve the News section's appearance
@@ -58,6 +56,8 @@ Main priorities:
 · Edit library (must do a series of other changes first)
 
 · Use seat numbers for parliament composition
+
+· Fully implement deterministic mode (for the sake of not having to do too many things at once, this will only be done after I've added the first achievements)
 
 - @credits: Back
 
