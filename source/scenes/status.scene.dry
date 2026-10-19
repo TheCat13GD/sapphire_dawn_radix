@@ -24,7 +24,7 @@ Resources available: [+ resources +]
 
 Jem Albert's approval: WIP
 
-Internal dissent: [+ dissent_percent : dissent +]
+Internal dissent: [+ dissent_percent : dissent +] [? if deterministic_mode == 1 : [+ dissent_percent +] ?]
 
 = Popular Front
 
@@ -83,7 +83,7 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 
 = Inter-party Relations
 
-{!<span class="tooltip-text" title="Communist Party of Germany" style="color: var(--lf);"><strong>KPD</strong></span>!}: [+ kpd_relation : relationships +]
+{!<span class="tooltip-text" title="Communist Party of Germany" style="color: var(--lf);"><strong>KPD</strong></span>!}: [+ kpd_relation : relationships +] [? if deterministic_mode == 1 : [+ kpd_relation +] ?]
 
 {!<span class="tooltip-text" title="Party of Verdantian-Progressives" style="color: var(--vp);"><strong>VPs</strong></span>!}: [+ vps_relation : relationships +]
 
