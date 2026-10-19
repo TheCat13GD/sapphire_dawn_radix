@@ -1,6 +1,6 @@
 title: Choosing Our Enemies
 new-page: true
-view-if: year <= 1930 and enemies_timer <= 0
+view-if: enemies_timer <= 0
 on-arrival: month_actions += 1; enemies_timer = 18
 max-visits: 3
 is-card: true
@@ -11,7 +11,7 @@ tags: party_affairs
 
 In our media and campaign materials, who should we consider as our main opponents?
 
-[? if enemies != 0 : Previously, we had considered the [+ enemies +] as our prior enemies. Is a change of direction necessary? ?]
+[? if enemies != 0 : Previously, we had considered the [+ enemies +] as our enemies. Is a change of direction necessary? ?]
 
 - @anti_dem: The anti-democratic parties of the far right and left - the KPD, NSDAP, and DNVP.
 - @far_right: The far right - the NSDAP and DNVP.
