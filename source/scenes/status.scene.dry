@@ -28,7 +28,7 @@ Internal dissent: [+ dissent_percent : dissent +] [? if deterministic_mode == 1 
 
 = Popular Front
 
-Position: WIP
+Position: [+ popfront_position : popfront_position +]
 
 Cohesion: WIP
 
@@ -37,6 +37,8 @@ Enthusiasm: WIP
 <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> influence: WIP
 
 = Government
+
+Coalition: [+ governing_coalition : governing_coalition +]
 
 President: [+ president +]
 
