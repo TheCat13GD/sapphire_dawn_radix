@@ -20,9 +20,9 @@ if (Q.economic_growth) {
 
 Resources available: [+ resources +]
 
-<span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> membership: number (e.g. 14250)
+<span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> membership: ~[+ radix_membership +]
 
-Jem Albert's approval: WIP
+Jem Albert's approval: [+ approval_rating : dissent +] [? if deterministic_mode == 1 : [+ approval_rating +] ?]
 
 Internal dissent: [+ dissent_percent : dissent +] [? if deterministic_mode == 1 : [+ dissent_percent +] ?]
 
