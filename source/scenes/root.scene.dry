@@ -611,7 +611,7 @@ For more information on the politics and government of the German Republic, see 
 - @1928_historical: Begin (historical mode)
 
 @1928_deterministic
-subtitle: A variant of easy difficulty with deterministic features. Achievements will be disabled.
+subtitle: Easy difficulty plus deterministic features. Achievements will be disabled.
 on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 64; z_relation = 49; dvp_relation = 17; budget = 5;
 go-to: intro
 
