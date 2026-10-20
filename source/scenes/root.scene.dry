@@ -345,6 +345,7 @@ Q.economic_records = [];
 
 // State of the Popular Front
 Q.popfront_position = 3;
+Q.radix_influence = 8;
 
 // State of the government
 Q.president = "Hindenburg";
