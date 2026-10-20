@@ -33,7 +33,7 @@ Nothing to see here yet, but be sure to check every now and then ;)
 
 Main priorities:
 
-· Functional RADIX Front and PopFront variables (visible in Status -> Main)
+· Further changes to the Status scene (main and politics sections)
 
 · Improve the News section's appearance
 
@@ -53,9 +53,11 @@ Main priorities:
 
 · Youth wing leader advisor (cannot be manually changed, but rather through events)
 
+· Use seat numbers for parliament composition
+
 · Edit library (must do a series of other changes first)
 
-· Use seat numbers for parliament composition
+· New functionalities for various RADIX Front and PopFront variables
 
 · Fully implement deterministic mode (for the sake of not having to do too many things at once, this will only be done after I've added the first achievements)
 
