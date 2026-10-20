@@ -128,6 +128,16 @@ Q.z_leader = "Brüning";
 Q.z_party_leader = "Marx";
 Q.nsdap_leader = "Hitler";
 
+Q.lf_ideology = "Council Communism";
+Q.vps_ideology = "Revolutionary Verdantianism";
+Q.adp_ideology = "Social Democracy";
+Q.dcp_ideology = "Left Liberalism";
+Q.rpp_ideology = "Liberal Corporatism";
+Q.cldp_ideology = "Liberal Conservatism";
+Q.nscu_ideology = "Syncretic";
+Q.napp_ideology = "National Conservatism";
+Q.anf_ideology = "Ultranationalism";
+
 // hmm... maybe we can play nice with Hindenburg???
 Q.hindenburg_relation = 25;
 // whether or not hindenburg can dismiss the government.
