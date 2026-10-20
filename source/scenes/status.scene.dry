@@ -34,7 +34,7 @@ Cohesion: WIP
 
 Enthusiasm: WIP
 
-<span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> influence: [+ radix_influence : radix_influence +]
+<span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> influence: [+ radix_influence : radix_influence +] [? if deterministic_mode == 1 : [+ radix_influence +] ?]
 
 = Government
 
