@@ -90,22 +90,33 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 <br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
 
 {!<span class="tooltip-text" title="Party of Verdantian-Progressives" style="color: var(--vp);"><strong>VPs</strong></span>!}: [+ vps_relation : relationships +] [? if deterministic_mode == 1 : [+ vps_relation +] ?]
+<br>[+ vps_ideology +] ([+ vps_leader +])
+<br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
 
 {!<span class="tooltip-text" title="German Democratic Party" style="color: var(--adp);"><strong>DDP</strong></span>!}: [+ ddp_relation : relationships +] [? if deterministic_mode == 1 : [+ ddp_relation +] ?]
+<br>[+ adp_ideology +] ([+ adp_leader +])
+<br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
 
 {!<span class="tooltip-text" title="Center Party" style="color: var(--dcp);"><strong>Z</strong></span>!}: [+ z_relation : relationships +] [? if deterministic_mode == 1 : [+ z_relation +] ?]
+<br>[+ dcp_ideology +] ([+ z_leader +])
+<br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
 
 = Other Parties
 
 {!<span class="tooltip-text" title="Revolutionary Progress Party" style="color: var(--rpp);"><strong>RPP</strong></span>!}: [+ rpp_relation : relationships +] [? if deterministic_mode == 1 : [+ rpp_relation +] ?]
+<br>[+ rpp_ideology +] ([+ rpp_leader +])
 
 {!<span class="tooltip-text" title="German People's Party" style="color: var(--cldp);"><strong>DVP</strong></span>!}: [+ dvp_relation : relationships +] [? if deterministic_mode == 1 : [+ dvp_relation +] ?]
+<br>[+ cldp_ideology +] ([+ cldp_leader +])
 
 {!<span class="tooltip-text" title="National-Social Common Union" style="color: var(--nscu);"><strong>NSCU</strong></span>!}: [+ nscu_relation : relationships +] [? if deterministic_mode == 1 : [+ nscu_relation +] ?]
+<br>[+ nscu_ideology +] ([+ nscu_leader +])
 
 {!<span class="tooltip-text" title="German National People's Party" style="color: var(--napp);"><strong>DNVP</strong></span>!}: [+ dnvp_relation : relationships +] [? if deterministic_mode == 1 : [+ dnvp_relation +] ?]
+<br>[+ napp_ideology +] ([+ napp_leader +])
 
 {!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)" style="color: var(--anf);"><strong>NSDAP</strong></span>!}: [+ nsdap_relation : relationships +] [? if deterministic_mode == 1 : [+ nsdap_relation +] ?]
+<br>[+ anf_ideology +] ([+ nsdap_leader +])
 
 = Internal Factions of the <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span>
 
