@@ -33,7 +33,7 @@ Nothing to see here yet, but be sure to check every now and then ;)
 
 Main priorities:
 
-· Further changes to the Status scene (main and politics sections)
+· Remove most OG events
 
 · Improve the News section's appearance
 
@@ -44,6 +44,8 @@ Main priorities:
 · Change background image
 
 · Change page titles (must come up with a final idea for the mod's name first)
+
+· Add a 2nd "Status" section, on the right
 
 · Advisors for all factions
 
@@ -57,7 +59,7 @@ Main priorities:
 
 · Edit library (must do a series of other changes first)
 
-· New functionalities for various RADIX Front and PopFront variables
+· New functionalities for various RADIX Front and PopFront variables, as well as developing party ideology and leader variables
 
 · Fully implement deterministic mode (for the sake of not having to do too many things at once, this will only be done after I've added the first achievements)
 
