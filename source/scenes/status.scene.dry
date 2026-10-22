@@ -22,7 +22,7 @@ Resources available: [+ resources +]
 
 <span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> membership: ~[+ radix_membership +]
 
-Jem Albert's approval: [+ approval_rating : approval_rating +] [? if deterministic_mode == 1 : [+ approval_rating +] ?]
+Jem Albert's approval rate: [+ approval_rating : approval_rating +] [? if deterministic_mode == 1 : [+ approval_rating +] ?]
 
 Internal dissent: [+ dissent_percent : dissent +] [? if deterministic_mode == 1 : [+ dissent_percent +] ?]
 
