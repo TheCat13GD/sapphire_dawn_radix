@@ -1,0 +1,10 @@
+
+# the government's general approval rate
+
+(..5) extremely low
+(5..15) very low
+(15..35) low
+(35..55) middling
+(55..75) high
+(75..90) very high
+(90..) extremely high
