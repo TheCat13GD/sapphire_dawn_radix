@@ -48,27 +48,27 @@ max-cards: 6
 </div>
 
 - @exec
-- @party
-- @govt
+- @org
+- @admin
 - #advisor
 - @shuffle_leadership_pinned
 
 
 @exec
 title: Executive Affairs
-card-image: img/placeholder.png
+card-image: img/Exec_Deck.png
 is-deck: true
 
 - #exec_affairs
 
-@party
+@org
 title: Party Affairs
 card-image: img/Vorwaerts_nr_1.png
 is-deck: true
 
 - #party_affairs
 
-@govt
+@admin
 title: Government Affairs
 card-image: img/reichstag_2.jpg
 is-deck: true
