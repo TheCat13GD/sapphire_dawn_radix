@@ -63,14 +63,14 @@ is-deck: true
 - #exec_affairs
 
 @org
-title: Party Affairs
+title: Organizational Affairs
 card-image: img/Vorwaerts_nr_1.png
 is-deck: true
 
 - #party_affairs
 
 @admin
-title: Government Affairs
+title: Administrative Affairs
 card-image: img/reichstag_2.jpg
 is-deck: true
 
