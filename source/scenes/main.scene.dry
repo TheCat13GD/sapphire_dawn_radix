@@ -20,8 +20,9 @@ max-cards: 5
 <div class="news">[+ news_text +]</div>
 </div>
 
-- @party
-- @govt
+- @exec
+- @org
+- @admin
 - #advisor
 - @shuffle_leadership_pinned
 
