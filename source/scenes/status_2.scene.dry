@@ -1,0 +1,116 @@
+title: Status2
+new-page: true
+is-special: true
+on-arrival: {!
+if (Q.unemployed) {
+    Q.unemployed_2 = Q.unemployed.toFixed(1);
+}
+if (Q.inflation) {
+    Q.inflation_2 = Q.inflation.toFixed(1);
+}
+Q.economic_growth_2 = '0';
+if (Q.economic_growth) {
+    Q.economic_growth_2 = Q.economic_growth.toFixed(1);
+}
+!}
+
+= Status
+
+[+ month : month +] [+ year +], Week [+ week +]
+
+Resources available: [+ resources +]
+
+<span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> membership: ~[+ radix_membership +]
+
+Jem Albert's approval rate: [+ approval_rating : approval_rating +] [? if deterministic_mode == 1 : [+ approval_rating +] ?]
+
+Internal dissent: [+ dissent_percent : dissent +] [? if deterministic_mode == 1 : [+ dissent_percent +] ?]
+
+= Popular Front
+
+Position: [+ popfront_position : popfront_position +]
+
+Cohesion: WIP
+
+Enthusiasm: WIP
+
+<span style="color: var(--radix-main);"><strong>RADIX Front</strong></span> influence: [+ radix_influence : radix_influence +] [? if deterministic_mode == 1 : [+ radix_influence +] ?]
+
+= Government
+
+Coalition: [+ governing_coalition : governing_coalition +]
+
+President: [+ president +]
+
+Chancellor: [+ chancellor +] ([+ chancellor_party +])
+
+Legitimacy: [+ legitimacy : legitimacy +]
+
+@politics
+
+= Popular Front
+
+{!<span class="tooltip-text" title="Communist Party of Germany" style="color: var(--lf);"><strong>KPD</strong></span>!}: [+ kpd_relation : relationships +] [? if deterministic_mode == 1 : [+ kpd_relation +] ?]
+<br>[+ lf_ideology +] ([+ kpd_leader +])
+<br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
+
+{!<span class="tooltip-text" title="Party of Verdantian-Progressives" style="color: var(--vp);"><strong>VPs</strong></span>!}: [+ vps_relation : relationships +] [? if deterministic_mode == 1 : [+ vps_relation +] ?]
+<br>[+ vps_ideology +] ([+ vps_leader +])
+<br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
+
+{!<span class="tooltip-text" title="German Democratic Party" style="color: var(--adp);"><strong>DDP</strong></span>!}: [+ ddp_relation : relationships +] [? if deterministic_mode == 1 : [+ ddp_relation +] ?]
+<br>[+ adp_ideology +] ([+ adp_leader +])
+<br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
+
+{!<span class="tooltip-text" title="Center Party" style="color: var(--dcp);"><strong>Z</strong></span>!}: [+ z_relation : relationships +] [? if deterministic_mode == 1 : [+ z_relation +] ?]
+<br>[+ dcp_ideology +] ([+ z_leader +])
+<br><span style="color: var(--popfront);">Popular Front</span> loyalty: WIP
+
+@paramilitaries
+on-arrival: {!
+if (Q.rb_strength) {
+    Q.rb_strength_2 = Q.rb_strength.toFixed(1);
+}
+if (Q.rfb_strength) {
+    Q.rfb_strength_2 = Q.rfb_strength.toFixed(1);
+}
+if (Q.sh_strength) {
+    Q.sh_strength_2 = Q.sh_strength.toFixed(1);
+}
+if (Q.sa_strength) {
+    Q.sa_strength_2 = Q.sa_strength.toFixed(1);
+}
+!}
+
+= Paramilitaries
+
+WIP.
+
+@polls
+on-arrival: {!
+Q.pro_republic_disp = Math.round(Q.pro_republic);
+Q.nationalism_disp = Math.round(Q.nationalism);
+Q.socialism_disp = Math.round(Q.socialism);
+!}
+
+= Projected election results
+
+(if the election were to be held now):
+
+KPD: [+ kpd_votes +]%
+
+SPD: [+ spd_votes +]%
+
+DDP: [+ ddp_votes +]%
+
+Z: [+ z_votes +]%
+
+RPP: [+ rpp_votes +]%
+
+DVP: [+ dvp_votes +]%
+
+DNVP: [+ dnvp_votes +]%
+
+NSDAP: [+ nsdap_votes +]%
+
+NSCU: [+ nscu_votes +]%
