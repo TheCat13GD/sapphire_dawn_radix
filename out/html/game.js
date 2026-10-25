@@ -253,6 +253,7 @@
       for (i = 0; i < tabButtons.length; i++) {
         tabButtons[i].className = tabButtons[i].className.replace(' active', '');
       }
+      console.log("tabButton.className" + tabButton.className);
       tabButton.className += ' active';
       window.statusTab = newTab;
       window.updateSidebar();
@@ -264,6 +265,7 @@
       for (i = 0; i < tabButtons2.length; i++) {
         tabButtons2[i].className = tabButtons2[i].className.replace(' active', '');
       }
+      console.log("tabButton2.className" + tabButton2.className);
       tabButton2.className += ' active';
       window.statusTab = newTab;
       window.updateSidebar2();
