@@ -252,7 +252,7 @@
 
   window.changeTab2 = function(newTab, tabId2) {
       var tabButton2 = document.getElementById(tabId2);
-      var tabButtons2 = document.getElementsByClassName('tab_button_2');
+      var tabButtons2 = document.getElementsByClassName('tab_button');
       for (i = 0; i < tabButtons.length; i++) {
         tabButtons2[i].className = tabButtons2[i].className.replace(' active', '');
       }
