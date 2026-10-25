@@ -64,7 +64,7 @@ is-deck: true
 
 @org
 title: Organizational Affairs
-card-image: img/Vorwaerts_nr_1.png
+card-image: img/Org_Deck.png
 is-deck: true
 
 - #party_affairs
