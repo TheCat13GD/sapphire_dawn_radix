@@ -250,13 +250,13 @@
       window.updateSidebar();
   };
 
-  window.changeTab2 = function(newTab, tabId) {
-      var tabButton = document.getElementById(tabId);
-      var tabButtons = document.getElementsByClassName('tab_button');
+  window.changeTab2 = function(newTab, tabId2) {
+      var tabButton2 = document.getElementById(tabId2);
+      var tabButtons2 = document.getElementsByClassName('tab_button_2');
       for (i = 0; i < tabButtons.length; i++) {
-        tabButtons[i].className = tabButtons[i].className.replace(' active', '');
+        tabButtons2[i].className = tabButtons2[i].className.replace(' active', '');
       }
-      tabButton.className += ' active';
+      tabButton2.className += ' active';
       window.statusTab = newTab;
       window.updateSidebar();
   };
