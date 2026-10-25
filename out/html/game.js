@@ -297,6 +297,7 @@
         var sidebar_fs = fs - 0.1;
         document.getElementById("content").setAttribute("style", "font-size: " + fs + "em;");
         document.getElementById("stats_sidebar").setAttribute("style", "font-size: " + sidebar_fs + "em;");
+        document.getElementById("stats_sidebar_2").setAttribute("style", "font-size: " + sidebar_fs + "em;");
         document.getElementById('font_size_value').textContent = window.dendryUI.font_size.toFixed(1) + "em";
         window.dendryUI.saveSettings();
   }
@@ -307,6 +308,7 @@
         var sidebar_fs = fs - 0.1;
         document.getElementById("content").setAttribute("style", "font-size: " + fs + "em;");
         document.getElementById("stats_sidebar").setAttribute("style", "font-size: " + sidebar_fs + "em;");
+        document.getElementById("stats_sidebar_2").setAttribute("style", "font-size: " + sidebar_fs + "em;");
         document.getElementById('font_size_value').textContent = window.dendryUI.font_size.toFixed(1) + "em";
         window.dendryUI.saveSettings();
   }
