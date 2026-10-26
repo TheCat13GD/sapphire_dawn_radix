@@ -611,7 +611,7 @@ Q.baade_advisor = 0; // Fritz Baade
 // Initial news flavor text
 Q.news_text = "It is a grim time for Aurelia and the world. Lately, an uprecedented series of conflicts, invasions and coups has been ravaging the entire continent, and it seems Aurelia hasn't been spared, despite coming from a period of notable stability. Before most could even comprehend what was happening, the country now finds itself torn apart by the actions of a pile of criminals presenting themselves as a legitimate government.<br><br>Now, our task is to help lead the Republican forces into victory, or at the very least, survival. We must be prepared for anything that might come our way.";
 !}
-set-bg: img/map_2.jpg
+set-bg: img/map_placeholder.jpg
 new-page: true
 
 > *"WIP."*
