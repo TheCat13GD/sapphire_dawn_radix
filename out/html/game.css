@@ -43,7 +43,7 @@ body.dark-mode .tools {
 }
 header, #content, footer {
   color: var(--text-color);
-  max-width: 540px;
+  max-width: 500px;
   margin: 0 auto;
   overflow: auto;
 }
@@ -182,7 +182,6 @@ blockquote + blockquote.attribution {
 /* This is mostly copied from undum. */
 #mid_panel {
   margin: 0 16rem;
-  margin-right: 13.5em;
 }
 #page {
   margin: 0 auto;
