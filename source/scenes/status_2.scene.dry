@@ -4,7 +4,17 @@ is-special: true
 
 = The Network
 
-WIP.
+[+ governing_coalition : governing_coalition +]
+
+President: [+ president +]
+
+Chancellor: [+ chancellor +] ([+ chancellor_party +])
+
+Legitimacy: [+ legitimacy : legitimacy +]
+
+Cohesion: WIP
+
+{!<span style="color: var(--anf);"><strong>ANF</strong></span>!} loyalty: WIP
 
 @politics
 
